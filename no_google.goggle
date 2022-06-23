@@ -1,0 +1,14 @@
+! name: No Google
+! description: Removes all results from Google or Google owned websites
+! public: true
+! author: Jeffrey Kozik
+
+$discard,site=google.com
+$discard,site=youtube.com
+$discard,site=android.com
+$discard,site=chrome.com
+$discard,site=nest.com
+$discard,site=looker.com
+$discard,site=waze.com
+$discard,site=appsheet.com
+$discard,site=fitbit.com
